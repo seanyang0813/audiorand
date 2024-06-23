@@ -10,4 +10,4 @@ Since it's hard to generate two identical voice samples of length and content, w
 
 Overall it doesn't use any crypto library or hashing and purely uses the audio sample for generating randomness. The blob seems to be opus codec locally, maybe it won't hold for other codecs?
 
-I tried it using https://cieciura.net/mp/kalkulatory/randomness.htm for randomness and suggests random. Math.random() shows similar p value it seems
+I tried it using https://cieciura.net/mp/kalkulatory/randomness.htm for randomness and suggests random most of the time it seems
